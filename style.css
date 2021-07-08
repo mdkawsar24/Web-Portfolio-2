@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+   
+   font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
+.name-highlight{
+    color: rgb(255, 28, 217);
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 3%;
+    margin-top: 30px;
+}
+.image-style{
+    border: 3px white solid;
+    border-radius: 50%;
+    border-color:rgb(248, 106, 194);
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 50%;
+}
+.half-width p{
+    text-align: justify;
+
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+section{
+    height: 400px;
+    padding-bottom: 100px;
+}
+#caption{
+    margin-left: 70px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(236, 13, 13), rgb(16, 252, 95));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(0, 4, 255);
+}
+#image-style {
+    border: 3px white solid;
+    border-radius: 50%;
+    border-color: rgb(0, 41, 32);
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 320px;
+    height: 320px;
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 300px;
+}
+.width-lose{
+    margin-right:60px;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 300px;
+    
+}
+.orange-highlight{
+    color: orange;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 75%;
+    background-color: white;
+    
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, tomato, rgb(77, 255, 71));
+    border-image-slice: 1;
+    
+    
+}
+#full-stack p{
+    
+    padding-right: 15px;
+}
+#baby-web {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue, cyan);
+    border-image-slice: 1;
+
+
+}
+
+#baby-web p{
+
+    padding-right: 15px;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+}
